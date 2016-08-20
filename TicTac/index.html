@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0'>
+    <title>tic-tac-toe</title>
+    <link href="styles.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery-2.2.2.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    
+</head>
+
+<body>
+    <h1>Tic-tac-toe</h1>
+    <div id="settingsGame">
+    <h3>Settings:</h3>
+        <label for="sizeArea">Size of area: </label>
+        <input id="sizeArea" value="20" type="number">
+        <label for="signsToWin">Amount signs to win: </label>
+        <input id="signsToWin" value="5" type="number">
+        <button>Apply</button>
+        <span style="display: none" id="goodMessage">success</span>
+    </div>
+    <h2 id="currentPlayer"></h2>
+    <canvas id="areaGame">
+        
+    </canvas>
+    
+</body>
+</html>

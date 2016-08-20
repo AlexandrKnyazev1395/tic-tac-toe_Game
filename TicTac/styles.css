@@ -1,0 +1,12 @@
+#settingsGame{
+	margin-bottom: 20px;
+}
+#areaGame{
+	display: block;
+	margiin-top: 10px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+#goodMessage{
+	position: absolute;
+}
